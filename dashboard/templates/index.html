@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Trading Bot Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #events { max-height: 360px; overflow:auto; border:1px solid #ddd; padding:8px; }
+    canvas { width: 100%; height: 360px; }
+  </style>
+</head>
+<body>
+  <h2>Trading Bot Dashboard</h2>
+  <canvas id="tradeChart"></canvas>
+  <div id="events"></div>
+  <script src="/static/charts.js"></script>
+</body>
+</html>
 
